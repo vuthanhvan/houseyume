@@ -118,6 +118,7 @@ footer {
 }
 .copy-right{
     margin-left: 40px;
+    color: #232320;
 }
 
 

@@ -177,7 +177,7 @@ import Scroll from './Scroll.vue'
                 <div class="main22 ">
                     <a href="../common/word/goodreads.php">
                         <div class="main11-img main-img">
-                            <span>book <br>
+                            <span>book<br>
                                 <h2>Review book</h2>
                             </span>
                             <div class="main-read"><img src="https://i.pinimg.com/564x/ea/4d/da/ea4ddae507a003d89fede78e54bc6439.jpg" alt=""></div>
@@ -188,24 +188,11 @@ import Scroll from './Scroll.vue'
                 <div class="main22">
                     <a href="../common/word/pinterest.php">
                         <div class="main3-img main-img">
-                            <span>images <br>
-                                <h2>Pinterest</h2>
+                            <span>story <br>
+                                <h2>Fairy tale</h2>
                             </span>
                             <div class="main-read"><img src="https://i.pinimg.com/564x/11/4d/f0/114df0c7c815ed2eedcfec65d36da4cb.jpg" alt=""></div>
 
-                        </div>
-                    </a>
-                </div>
-
-                <div class="main22">
-                    <a href="#">
-                        <div class="main2-img main-img">
-                            <span style="color:#ffeec4  ;"> listen <br>
-                                <h2>Podcast</h2>
-                            </span>
-                            <div class="main-spotify">
-                                <img src="../img/spotify.PNG" alt="">
-                            </div>
                         </div>
                     </a>
                 </div>
@@ -226,6 +213,34 @@ import Scroll from './Scroll.vue'
                         </div>
                     </a>
                 </div>
+
+                <div class="main22">
+                    <a href="#">
+                        <div class="main2-img main-img">
+                            <span style="color:#ffeec4  ;"> img <br>
+                                <h2>Photography</h2>
+                            </span>
+                            <div class="main-spotify">
+                                <img src="https://i.pinimg.com/564x/1a/22/f0/1a22f0ffc897a6d63e307b5fac54673c.jpg" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="main22">
+                    <a href="#">
+                        <div class="main2-img main-img">
+                            <span style="color:#ffeec4  ;"> listen <br>
+                                <h2>Podcast</h2>
+                            </span>
+                            <div class="main-spotify">
+                                <img src="../img/spotify.PNG" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                
 
                 
             </div>
@@ -259,6 +274,7 @@ import Scroll from './Scroll.vue'
     justify-content: center;
     align-items: center;
     padding-top: 95px;
+    color: #232320;
 }
 
 .main1-img1 {
@@ -437,11 +453,13 @@ import Scroll from './Scroll.vue'
     text-align: center;
     font-size: 2rem;
     font-weight: 600;
+    color: #232320;
 }
 
 .text-home {
     text-align: center;
     font-size: 1.3rem;
+    color: #262624;
 }
 
 .button-home {

@@ -37,7 +37,7 @@ import Header from '../../Header.vue'
     </div>
         </div>
 
-        <div class="vanconmay">
+        <div class="vanconmay vanmay1">
             <div class="isometriccontainer">
         <div class="isometric isometric-col-5">
             <div class="isometric-item isometric-item1"></div>
@@ -217,7 +217,11 @@ import Header from '../../Header.vue'
 }
 
 
-
+@media (max-width: 900px){
+.vanmay1{
+    display: none;
+}
+}
 
 
 </style>

@@ -16,8 +16,9 @@
                             <li> <router-link to="/tale"> <span >Fairy tale</span> </router-link></li>
                             <li> <router-link to="/music"> <span class="span1">Memory Music</span> </router-link></li>
                             <li> <router-link to="/photography" > <span>Photography</span> </router-link></li>
+                            <li> <a href="https://www.pinterest.com/giahana2610/" target="blank"> <span >Pinterest</span> </a></li>
                             <li> <a href="https://open.spotify.com/playlist/1daVgwA7S2ycuDyO00HMl5" target="blank"> <span class="span1">Podcast</span> </a></li>
-                        </ul>
+                       </ul>
                     </li>
                     <li><router-link to="/tolanaday"> <span>Tớ là Na đây</span></router-link></li>
                     <li><router-link to="/nhacuana"> <span class="span1">Nhà của Na</span></router-link></li>

@@ -36,9 +36,9 @@ import Scroll from './Scroll.vue'
                     </p>
                 </div>
                 <div class="button-home bottom-span">
-                    <a href="../common/word/goodreads.php">
+                    <router-link to="/book">
                         <span>ABOUT THAT</span>
-                    </a>
+                    </router-link>
                 </div>
             </div>
         </div>
@@ -139,9 +139,9 @@ import Scroll from './Scroll.vue'
                         <div class="i-box1">
                             <img class="box-img1" src="https://i.pinimg.com/564x/10/7d/37/107d370aac6dda9298fe8ebe86224fb4.jpg" alt="">
                         </div>
-                        <a href="../common/tolanaday.php" class="box-a1" target="blank">
+                        <router-link to="/tolanaday" class="box-a1" target="blank">
                             Tớ là Na đây
-                        </a>
+                        </router-link>
                     </li>
                 </div>
 
@@ -150,9 +150,9 @@ import Scroll from './Scroll.vue'
                         <div class="i-box1">
                             <img class="box-img1" src="https://i.pinimg.com/564x/ac/c3/69/acc369d30c04bf986921f436ef469314.jpg" alt="">
                         </div>
-                        <a href="../common/nhacuana.php" class="box-a1" target="blank">
+                        <router-link to="/nhacuana" class="box-a1" target="blank">
                             Nhà của Na
-                        </a>
+                        </router-link>
                     </li>
                 </div>
 
@@ -161,9 +161,9 @@ import Scroll from './Scroll.vue'
                         <div class="i-box1">
                             <img class="box-img1" src="https://i.pinimg.com/564x/91/ad/64/91ad64c9f6d8a56030d3e215252eba1f.jpg" alt="">
                         </div>
-                        <a href="../common/vanconmay.php" class="box-a1" target="blank">
+                        <router-link to="/vanconmay" class="box-a1" target="blank">
                             Vẫn còn mây
-                        </a>
+                        </router-link>
                     </li>
                 </div>
 

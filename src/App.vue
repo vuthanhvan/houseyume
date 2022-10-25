@@ -6,6 +6,10 @@ import Scroll from './Scroll.vue'
 </script>
 <template>
 
+  <!-- <div v-if="">
+    <router-link to="/home"></router-link>
+  </div> -->
+
   <!-- <Header></Header> -->
 <router-view></router-view> 
      

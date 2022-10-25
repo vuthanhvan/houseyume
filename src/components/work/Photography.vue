@@ -7,24 +7,10 @@ import Header from '../../Header.vue';
     <Header></Header>
      <div class="photo">
         <div class="title-photo">
-            <h2 class="animate__animated animate__bounceInDown ">MY EYES TO FIND THE BEAUTY IN MY LIFE.</h2>
-        </div>
-        <div class="photo-img">
-            <div class="photo-img-title">
-                 <div class="p-img p-img1"></div>
-                 <div class="p-img p-img2"></div>
-                 <div class="p-img p-img3"></div>
-                 <div class="p-img p-img4"></div>
-                 <div class="p-img p-img5"></div>
-                 <div class="p-img p-img6"></div>
-                 <div class="p-img p-img7"></div>
-                 <div class="p-img p-img8"></div>
-           </div>
+            <h2 class="animate__animated animate__bounceInDown title-p-h2 ">MY EYES TO FIND THE BEAUTY IN MY LIFE.</h2>
         </div>
 
-    <div class="blog-content">
-        <div class="re-book">
-                            <div class="re">
+        <div class="re">
                                 <div class="re-1 re1">
                                         <div class="re-img re-img-1"></div>
                                 </div>
@@ -61,13 +47,10 @@ import Header from '../../Header.vue';
                                         <div class="re-img re-img-8"></div>
                                 </div>
 
-                            </div>
-                        </div>
-                    </div>
+        </div>
+  
+    </div>
 
-
-                </div>
-                
            
 </template>
 <style scoped>
@@ -75,11 +58,15 @@ import Header from '../../Header.vue';
     margin: 0px auto;
     max-width: 1200px;
     width: 100%;
+    margin-top: 50px;
 }
 
 .title-photo {
     display: flex;
     justify-content: center;
+}
+.title-p-h2{
+    font-family: 'Edu NSW ACT Foundation', cursive;
 }
 
 .photo-img{
@@ -94,14 +81,10 @@ import Header from '../../Header.vue';
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
     grid-template-rows: 1fr 1fr 1fr;
-    /* grid-template-rows: 1fr; */
-    grid-gap: 30px;
+    grid-gap: 20px;
     padding: 30px 50px;
-    /* text-align: center; */
     margin: 0px auto;
     padding: 30px 50px;
-    /* align-items: center;
-    justify-content: center; */
 }
 
 
@@ -110,12 +93,6 @@ import Header from '../../Header.vue';
     display: inline-block;
     border: 0;
     position: relative;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1);
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1);
     transition: all 200ms ease-in;
     transform: scale(1);
 }
@@ -123,15 +100,8 @@ import Header from '../../Header.vue';
 .re-1:hover {
     box-shadow: 0px 0px 150px #000000;
     z-index: 2;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1.2);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.5);
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1.2);
     transition: all 200ms ease-in;
-    transform: scale(1.2);
-    background-color: #EBC8AA;
+    transform: scale(1.08);
 
 }
 
@@ -141,14 +111,18 @@ import Header from '../../Header.vue';
 
 .re-1:hover a {
     color: #333;
-    background-color: #ca986d;
+    border-radius: 6px;
 }
+.re-img :hover{
+    border-radius: 6px;
 
+}
 .re-img {
     background-position: center;
     background-size: cover;
-    /* height: 250px; */
     height: 200px;
+    border-radius: 6px;
+    transition: 0.3s ease transform;
 }
 
 .re-img-1 {
@@ -215,13 +189,6 @@ import Header from '../../Header.vue';
         grid-template-columns: 2fr 2fr;
         grid-template-rows: 1fr 1fr;
     }
-
-    .re3,
-    .re4,
-    .re5 {
-        display: none;
-    }
-
     .re-txt {
         margin: 0px 7px;
     }
@@ -235,21 +202,16 @@ import Header from '../../Header.vue';
         grid-template-rows: 1fr;
     }
 
-    .re4,
-    .re5,
-    .re6,
-    .re7,
-    .re8,
-    .re9 {
-        display: none;
-    }
-
     .re-txt {
         margin: 0px 7px;
     }
-
+    .title-p-h2 {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 1.2rem;
+}
 
 }
+
 
 
 </style>

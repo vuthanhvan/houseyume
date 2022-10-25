@@ -68,7 +68,6 @@ import Header from '../../Header.vue';
 
                 </div>
                 
-            </div>
            
 </template>
 <style scoped>

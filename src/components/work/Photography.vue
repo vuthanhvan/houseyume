@@ -211,6 +211,12 @@ import Header from '../../Header.vue';
 }
 
 }
+@media (max-width: 500px){
+.title-p-h2 {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 0.8rem;
+}
+}
 
 
 

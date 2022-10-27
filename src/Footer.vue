@@ -215,9 +215,14 @@ footer {
     .footer {
         margin: 10px auto 30px;
         display: flex;
-        padding-left: 0;
-
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 30px;
     }
+    .copy-right{
+    margin-left: 0px;
+}
+     
 }
 
 @media (max-width:500px) {

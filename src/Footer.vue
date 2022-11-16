@@ -3,34 +3,37 @@
 </script>
 <template>
     <footer>
-    <div class="in-me">
-        <div class="copy-right">
-            <span class="span-copy">
-                © Copyright 2022 |
-                <p class="bottom-span">
-                    <router-link to="/home">
-                        <span>&nbsp; Tớ là Na &nbsp; </span>
-                    </router-link>
-                </p>
-                | Mỉm cười thì may mắn sẽ tới với bạn thôi !
-            </span>
-        </div>
-    </div>
-    <div class="footer">
-        <div class="footer-i">
-            <div>
-                <a href="https://www.facebook.com/giahan269/" target="blank"><i class="fa-brands fa-facebook-f"></i></a>
+        <div class="in-me">
+            <div class="copy-right">
+                <span class="span-copy">
+                    © Copyright 2022 |
+                    <p class="bottom-span">
+                        <router-link to="/home">
+                            <span>&nbsp; Tớ là Na &nbsp; </span>
+                        </router-link>
+                    </p>
+                    | Mỉm cười thì may mắn sẽ tới với bạn thôi !
+                </span>
             </div>
-            <div><a href=""><i class="fa-brands fa-twitter" target="blank"></i></a></div>
-            <div><a href="https://www.instagram.com/yumevan/" target="blank"><i class="fa-brands fa-instagram-square"></i></a></div>
-
-            <div><a href="https://viblo.asia/u/yume.me" target="blank"><i class="fa-brands ">
-                        <img class="logo-v" src="https://images.viblo.asia/avatar/d3fbbb69-55f2-4530-99de-de866b71e9d8.png" alt="">
-                    </i></a> </div>
         </div>
-    </div>
+        <div class="footer">
+            <div class="footer-i">
+                <div>
+                    <a href="https://www.facebook.com/giahan269/" target="blank"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                </div>
+                <div><a href=""><i class="fa-brands fa-twitter" target="blank"></i></a></div>
+                <div><a href="https://www.instagram.com/yumevan/" target="blank"><i
+                            class="fa-brands fa-instagram-square"></i></a></div>
 
-</footer>
+                <div><a href="https://viblo.asia/u/yume.me" target="blank"><i class="fa-brands ">
+                            <img class="logo-v"
+                                src="https://images.viblo.asia/avatar/d3fbbb69-55f2-4530-99de-de866b71e9d8.png" alt="">
+                        </i></a> </div>
+            </div>
+        </div>
+
+    </footer>
 </template>
 <style scoped>
 /* footer */
@@ -116,7 +119,8 @@ footer {
 .span-copy a span {
     color: #945c2b;
 }
-.copy-right{
+
+.copy-right {
     margin-left: 40px;
     color: #232320;
 }
@@ -215,14 +219,14 @@ footer {
     .footer {
         margin: 10px auto 30px;
         display: flex;
-    justify-content: flex-start;
-    width: 100%;
-    margin-left: 30px;
+        justify-content: flex-start;
+        margin-left: 30px;
     }
-    .copy-right{
-    margin-left: 0px;
-}
-     
+
+    .copy-right {
+        margin-left: 0px;
+    }
+
 }
 
 @media (max-width:500px) {
@@ -248,6 +252,11 @@ footer {
 
 }
 
+@media (max-width:300px) {
+    .footer {
+        display: none;
+    }
+}
 
-    /* the end footer */
+/* the end footer */
 </style>

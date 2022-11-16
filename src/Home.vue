@@ -2,11 +2,11 @@
 import Header from './Header.vue'
 import Scroll from './Scroll.vue'
 
- </script>
+</script>
 <template>
-    <Header></Header> 
-<router-view></router-view>
-     <section class="index-section">
+    <Header></Header>
+    <router-view></router-view>
+    <section class="index-section">
         <div class="main1">
             <div class="main-txt">
                 <h1>
@@ -137,7 +137,8 @@ import Scroll from './Scroll.vue'
                 <div class="index-box1 index-box111">
                     <li>
                         <div class="i-box1">
-                            <img class="box-img1" src="https://i.pinimg.com/564x/10/7d/37/107d370aac6dda9298fe8ebe86224fb4.jpg" alt="">
+                            <img class="box-img1"
+                                src="https://i.pinimg.com/564x/10/7d/37/107d370aac6dda9298fe8ebe86224fb4.jpg" alt="">
                         </div>
                         <router-link to="/tolanaday" class="box-a1" target="blank">
                             Tớ là Na đây
@@ -148,7 +149,8 @@ import Scroll from './Scroll.vue'
                 <div class="index-box1 index-box2">
                     <li>
                         <div class="i-box1">
-                            <img class="box-img1" src="https://i.pinimg.com/564x/ac/c3/69/acc369d30c04bf986921f436ef469314.jpg" alt="">
+                            <img class="box-img1"
+                                src="https://i.pinimg.com/564x/ac/c3/69/acc369d30c04bf986921f436ef469314.jpg" alt="">
                         </div>
                         <router-link to="/nhacuana" class="box-a1" target="blank">
                             Nhà của Na
@@ -159,7 +161,8 @@ import Scroll from './Scroll.vue'
                 <div class="index-box1 index-box3">
                     <li>
                         <div class="i-box1">
-                            <img class="box-img1" src="https://i.pinimg.com/564x/91/ad/64/91ad64c9f6d8a56030d3e215252eba1f.jpg" alt="">
+                            <img class="box-img1"
+                                src="https://i.pinimg.com/564x/91/ad/64/91ad64c9f6d8a56030d3e215252eba1f.jpg" alt="">
                         </div>
                         <router-link to="/vanconmay" class="box-a1" target="blank">
                             Vẫn còn mây
@@ -180,7 +183,9 @@ import Scroll from './Scroll.vue'
                             <span>book<br>
                                 <h2>Review book</h2>
                             </span>
-                            <div class="main-read"><img src="https://i.pinimg.com/564x/ea/4d/da/ea4ddae507a003d89fede78e54bc6439.jpg" alt=""></div>
+                            <div class="main-read"><img
+                                    src="https://i.pinimg.com/564x/ea/4d/da/ea4ddae507a003d89fede78e54bc6439.jpg"
+                                    alt=""></div>
                         </div>
                     </a>
                 </div>
@@ -191,7 +196,9 @@ import Scroll from './Scroll.vue'
                             <span>story <br>
                                 <h2>Fairy tale</h2>
                             </span>
-                            <div class="main-read"><img src="https://i.pinimg.com/564x/11/4d/f0/114df0c7c815ed2eedcfec65d36da4cb.jpg" alt=""></div>
+                            <div class="main-read"><img
+                                    src="https://i.pinimg.com/564x/11/4d/f0/114df0c7c815ed2eedcfec65d36da4cb.jpg"
+                                    alt=""></div>
 
                         </div>
                     </a>
@@ -221,14 +228,15 @@ import Scroll from './Scroll.vue'
                                 <h2>Photography</h2>
                             </span>
                             <div class="main-spotify">
-                                <img src="https://i.pinimg.com/564x/1a/22/f0/1a22f0ffc897a6d63e307b5fac54673c.jpg" alt="">
+                                <img src="https://i.pinimg.com/564x/1a/22/f0/1a22f0ffc897a6d63e307b5fac54673c.jpg"
+                                    alt="">
                             </div>
                         </div>
                     </a>
                 </div>
 
                 <div class="main22">
-                    <a href="#">
+                    <a href="https://open.spotify.com/show/04t3t3lLWcMur0SjNpxDtm" target="_blank">
                         <div class="main2-img main-img">
                             <span style="color:#ffeec4  ;"> listen <br>
                                 <h2>Podcast</h2>
@@ -240,20 +248,18 @@ import Scroll from './Scroll.vue'
                     </a>
                 </div>
 
-                
 
-                
+
+
             </div>
         </div>
-  </section>
-    
-    
-  <Scroll></Scroll>  
+    </section>
+
+
+    <Scroll></Scroll>
 
 </template>
 <style scoped>
-    
-
 /* index */
 
 .index-section {
@@ -384,7 +390,7 @@ import Scroll from './Scroll.vue'
 }
 
 .main-music video {
-    width: 80%;
+    width: 50%;
     margin: 20px auto;
     border-radius: 15px;
 }

@@ -178,7 +178,7 @@ import Scroll from './Scroll.vue'
         <div>
             <div class="main2">
                 <div class="main22 ">
-                    <a href="../common/word/goodreads.php">
+                    <router-link to="/book">
                         <div class="main11-img main-img">
                             <span>book<br>
                                 <h2>Review book</h2>
@@ -187,11 +187,11 @@ import Scroll from './Scroll.vue'
                                     src="https://i.pinimg.com/564x/ea/4d/da/ea4ddae507a003d89fede78e54bc6439.jpg"
                                     alt=""></div>
                         </div>
-                    </a>
+                    </router-link>
                 </div>
 
                 <div class="main22">
-                    <a href="../common/word/pinterest.php">
+                    <router-link to="/tale">
                         <div class="main3-img main-img">
                             <span>story <br>
                                 <h2>Fairy tale</h2>
@@ -201,11 +201,11 @@ import Scroll from './Scroll.vue'
                                     alt=""></div>
 
                         </div>
-                    </a>
+                    </router-link>
                 </div>
 
                 <div class="main22">
-                    <a href="../common//word/memorymusic.php">
+                    <router-link to="/music">
                         <div class="main5-img main-img">
                             <span>music <br>
                                 <h2>Memory Music</h2>
@@ -218,11 +218,11 @@ import Scroll from './Scroll.vue'
                             </div>
 
                         </div>
-                    </a>
+                    </router-link>
                 </div>
 
                 <div class="main22">
-                    <a href="#">
+                    <a href="https://www.pinterest.com/giahana2610/" target="_blank">
                         <div class="main2-img main-img">
                             <span style="color:#ffeec4  ;"> img <br>
                                 <h2>Photography</h2>

@@ -11,8 +11,9 @@
     "vite": "^3.1.8"
   },
   "dependencies": {
-    "vue": "^3.2.41",
     "animate.css": "^4.1.1",
+    "bootstrap": "^5.2.2",
+    "vue": "^3.2.41",
     "vue-router": "^4.1.6"
   }
 }

@@ -8,6 +8,7 @@ import Nhacuana from './components/menu/Nhacuana.vue';
 import Tolamaday from './components/menu/Tolanaday.vue';
 import Vanconmay from './components/menu/Vanconmay.vue';
 
+import Work from './components/work/Work.vue'
 import Book from './components/work/Book.vue';
 import Music from './components/work/Music.vue';
 import Tale from './components/work/Tale.vue';
@@ -38,6 +39,10 @@ const routes = [
     {
         path: '/book',
         component: Book,
+    },
+    {
+        path: '/work',
+        component: Work,
     },
     {
         path: '/music',

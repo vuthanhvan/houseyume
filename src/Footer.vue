@@ -7,7 +7,7 @@
             <div class="copy-right">
                 <span class="span-copy">
                     © Copyright 2022 |
-                    <p class="bottom-span">
+                    <p class="hover">
                         <router-link to="/home">
                             <span>&nbsp; Tớ là Na &nbsp; </span>
                         </router-link>

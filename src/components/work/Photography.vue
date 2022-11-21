@@ -5,53 +5,53 @@ import Header from '../../Header.vue';
 
 <template>
     <Header></Header>
-     <div class="photo">
+    <div class="photo">
         <div class="title-photo">
             <h2 class="animate__animated animate__bounceInDown title-p-h2 ">MY EYES TO FIND THE BEAUTY IN MY LIFE.</h2>
         </div>
 
         <div class="re">
-                                <div class="re-1 re1">
-                                        <div class="re-img re-img-1"></div>
-                                </div>
+            <div class="re-1 re1">
+                <div class="re-img re-img-1"></div>
+            </div>
 
-                                <div class="re-1 re2">
-                                        <div class=" re-img re-img-2"></div>
-                                </div>
+            <div class="re-1 re2">
+                <div class=" re-img re-img-2"></div>
+            </div>
 
-                                <div class="re-1 re3">
-                                        <div class="re-img re-img-3"></div>
-                                </div>
+            <div class="re-1 re3">
+                <div class="re-img re-img-3"></div>
+            </div>
 
-                                <div class="re-1 re4">
-                                        <div class="re-img re-img-4"></div>
-                                </div>
+            <div class="re-1 re4">
+                <div class="re-img re-img-4"></div>
+            </div>
 
-                                <div class="re-1 re5">
-                                        <div class="re-img re-img-5"></div>
-                                </div>
+            <div class="re-1 re5">
+                <div class="re-img re-img-5"></div>
+            </div>
 
-                                <div class="re-1 re6">
-                                        <div class="re-img re-img-6"></div>
-                                </div>
+            <div class="re-1 re6">
+                <div class="re-img re-img-6"></div>
+            </div>
 
-                                <div class="re-1 re7">
-                                        <div class="re-img re-img-7"></div>
-                                </div>
+            <div class="re-1 re7">
+                <div class="re-img re-img-7"></div>
+            </div>
 
-                                <div class="re-1 re8">
-                                        <div class="re-img re-img-9"></div>
-                                </div>
+            <div class="re-1 re8">
+                <div class="re-img re-img-9"></div>
+            </div>
 
-                                <div class="re-1 re9">
-                                        <div class="re-img re-img-8"></div>
-                                </div>
+            <div class="re-1 re9">
+                <div class="re-img re-img-8"></div>
+            </div>
 
         </div>
-  
+
     </div>
 
-           
+
 </template>
 <style scoped>
 .photo {
@@ -65,17 +65,6 @@ import Header from '../../Header.vue';
     display: flex;
     justify-content: center;
 }
-.title-p-h2{
-    font-family: 'Edu NSW ACT Foundation', cursive;
-}
-
-.photo-img{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: center;
-}
-
 
 .re {
     display: grid;
@@ -105,18 +94,11 @@ import Header from '../../Header.vue';
 
 }
 
-.re-1:hover hr {
-    display: none;
-}
-
-.re-1:hover a {
-    color: #333;
-    border-radius: 6px;
-}
-.re-img :hover{
+.re-img :hover {
     border-radius: 6px;
 
 }
+
 .re-img {
     background-position: center;
     background-size: cover;
@@ -161,36 +143,11 @@ import Header from '../../Header.vue';
     background-image: url(https://vanpicachu.files.wordpress.com/2021/01/2020-12-30-12-58-24-171.jpg?w=2000&h=1200&crop=1);
 }
 
-.re-txt {
-    margin: 20px 20px;
-
-}
-
-.re-txt h3 {
-    margin: 25px auto 20px;
-    font-size: 20px;
-    text-align: center;
-}
-
-.re-1 a {
-    text-decoration: none;
-    color: #a36c3c;
-
-}
-
-.re-txt hr {
-    margin: 10px auto;
-    color: #333;
-}
-
 @media (max-width: 1023px) {
     .re {
         display: grid;
         grid-template-columns: 2fr 2fr;
         grid-template-rows: 1fr 1fr;
-    }
-    .re-txt {
-        margin: 0px 7px;
     }
 
 }
@@ -202,22 +159,17 @@ import Header from '../../Header.vue';
         grid-template-rows: 1fr;
     }
 
-    .re-txt {
-        margin: 0px 7px;
-    }
     .title-p-h2 {
-    font-family: 'Edu NSW ACT Foundation', cursive;
-    font-size: 1.2rem;
-}
+        font-family: 'Edu NSW ACT Foundation', cursive;
+        font-size: 1.2rem;
+    }
 
 }
-@media (max-width: 500px){
-.title-p-h2 {
-    font-family: 'Edu NSW ACT Foundation', cursive;
-    font-size: 0.8rem;
+
+@media (max-width: 500px) {
+    .title-p-h2 {
+        font-family: 'Edu NSW ACT Foundation', cursive;
+        font-size: 0.8rem;
+    }
 }
-}
-
-
-
 </style>

@@ -11,7 +11,7 @@ $(window).on('scroll', function () {
 <template>
 
     <div class="body-book">
-        <header class="header">
+        <header>
             <div class="main">
                 <div class="menu">
                     <ul class="nav menu-nav">
@@ -74,6 +74,30 @@ $(window).on('scroll', function () {
                 </div>
             </div>
 
+            <div class="header">
+                <div class="music">
+                    <div class="mu-txt">
+                        Chúng ta rồi sẽ phải nói lời tạm biệt với những thứ không ở trong tầm tay...
+                    </div>
+                    <div class="mu-content">
+                        <div class="video-youtube">
+                            <iframe width="560" height="315" id="youtube"
+                                src="https://www.youtube.com/embed/lCGBnGHjD1c" title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="mu-txt1 ">
+                        Chúng ta đều muốn nhận được sự cưng chiều trong tình yêu, nhận được "sự đối xử khác biệt" của
+                        người mình thích. Đây không phải một cách nghĩ kỳ lạ, chính vì thế, đừng vì người không yêu bạn
+                        mà hoài nghi chính mình, thay đổi bản thân. Người tốt như bạn, xứng đáng với người tốt hơn. Ngủ
+                        ngon.
+                    </div>
+                </div>
+            </div>
+
+
         </header>
 
 
@@ -125,9 +149,10 @@ $(window).on('scroll', function () {
 
 <style scoped>
 /* header */
-header {
+.header {
     background: linear-gradient(.25deg, #b6a0ea -36.42%, rgba(182, 160, 234, 0) 59.25%), #f1ebff;
     height: 100vh;
+    padding: 100px;
 }
 
 .main {
@@ -156,6 +181,42 @@ header {
 
 
 /* the header */
+
+.music {
+    padding-bottom: 31px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 10px auto;
+}
+
+.mu-txt {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.mu-txt1 {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+}
+
+.mu-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
 
 @media (max-width:700px) {
     .footer-g {

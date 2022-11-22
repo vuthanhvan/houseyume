@@ -183,9 +183,7 @@ import Scroll from './Scroll.vue'
                             <span>book<br>
                                 <h2>Review book</h2>
                             </span>
-                            <div class="main-read"><img
-                                    src="https://i.pinimg.com/564x/ea/4d/da/ea4ddae507a003d89fede78e54bc6439.jpg"
-                                    alt=""></div>
+                            <div class="main-read"><img src="../public/img/book1.PNG" alt=""></div>
                         </div>
                     </router-link>
                 </div>
@@ -196,9 +194,7 @@ import Scroll from './Scroll.vue'
                             <span>story <br>
                                 <h2>Fairy tale</h2>
                             </span>
-                            <div class="main-read"><img
-                                    src="https://i.pinimg.com/564x/11/4d/f0/114df0c7c815ed2eedcfec65d36da4cb.jpg"
-                                    alt=""></div>
+                            <div class="main-read"><img src="../public/img/book2.PNG" alt=""></div>
 
                         </div>
                     </router-link>
@@ -234,22 +230,6 @@ import Scroll from './Scroll.vue'
                         </div>
                     </a>
                 </div>
-
-                <div class="main22">
-                    <a href="https://open.spotify.com/show/04t3t3lLWcMur0SjNpxDtm" target="_blank">
-                        <div class="main2-img main-img">
-                            <span style="color:#ffeec4  ;"> listen <br>
-                                <h2>Podcast</h2>
-                            </span>
-                            <div class="main-spotify">
-                                <img src="../img/spotify.PNG" alt="">
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-
-
 
             </div>
         </div>
@@ -290,6 +270,7 @@ import Scroll from './Scroll.vue'
     border-radius: 20px;
     position: relative;
     background-position: center;
+    background-clip: calc();
 
 }
 
@@ -353,7 +334,7 @@ import Scroll from './Scroll.vue'
 }
 
 .main22:hover {
-    transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -7px, 0);
     box-shadow: 0 52px 74px rgb(0 0 0 / 12%);
     border-radius: 20px;
 }
@@ -369,15 +350,21 @@ import Scroll from './Scroll.vue'
 
 .main11-img img,
 .main3-img img {
-    width: 14rem;
+    width: 47rem;
     margin: 20px auto;
     border-radius: 15px;
 }
 
-.main-img:hover img,
+.main-img {
+    filter: drop-shadow(0 52px 74px rgba(0, 21, 64, .138559));
+    transition: all .4s ease-in-out;
+}
+
+/* 
+.main-img:hover,
 .main-music:hover video {
     transform: translate3d(0, -10px, 0);
-}
+} */
 
 .main-img span {
     position: absolute;
@@ -404,6 +391,7 @@ import Scroll from './Scroll.vue'
     height: 30rem;
     border-radius: 20px;
     position: relative;
+    /*  */
 }
 
 .main11-img {
@@ -414,19 +402,12 @@ import Scroll from './Scroll.vue'
     background: linear-gradient(6.03deg, #dacdff .5%, rgba(218, 205, 255, 0) 46.89%), #ffeaee;
 }
 
-.main2-img {
-    background: linear-gradient(223.65deg, rgba(10, 207, 131, 0) 60.59%, rgba(10, 207, 131, .62) 113.24%), #191919;
-}
-
 .main5-img {
     background: linear-gradient(39.4deg, #b6a0ea -2.55%, rgba(182, 160, 234, 0) 45.21%), #f1ebff;
 }
 
-.main4-img {
-    background: linear-gradient(180.14deg, #142c69 .12%, rgba(20, 44, 105, 0) 62.01%), #008081;
-}
 
-.main6-img {
+.main2-img {
     background: linear-gradient(314.25deg, rgba(10, 185, 149, .7) 1.09%, rgba(10, 185, 149, 0) 43.26%), #dacdff;
 }
 

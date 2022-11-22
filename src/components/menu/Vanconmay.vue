@@ -1,5 +1,6 @@
 <script setup>
 import Header from '../../Header.vue'
+import Scroll from '../../Scroll.vue'
 </script>
 <template>
     <Header></Header>
@@ -72,7 +73,7 @@ import Header from '../../Header.vue'
                 <br>
                 Mới ngày nào tớ còn bỡ ngỡ đón chuyến xe sớm để ra Hà nội cho kịp giờ cùng ba, tớ vẫn còn nhớ cái cảm
                 giác được ba che trở bảo vệ đó, nhưng rồi tớ vẫn phải đi bằng chính đôi chân của mình trên con đường
-                tiếp theo... Vậy là cuộc sống tự lập lần đầu xa nhà của tớ bắt đầu...
+                tiếp theo... Vậy là cuộc sống tự lập lần đầu xa nhà của tớ bắt đầu... 💙💙💙
                 <br>
             </div>
             <div class="img">
@@ -103,9 +104,10 @@ import Header from '../../Header.vue'
                 hiến máu cố định trên địa bàn Hà Nội.
                 <br>
                 <br>
-                Ngôi nhà máu Mật mã đã dạy tớ cũng như giúp tớ học hỏi thêm rất nhiều điều, được học hỏi thêm, được giúp
+                🏡 Ngôi nhà máu Mật mã đã dạy tớ cũng như giúp tớ học hỏi thêm rất nhiều điều, được học hỏi thêm, được
+                giúp
                 đỡ cũng được chăm sóc,.... Mong ngôi nhà này sẽ tiếp tục và luôn phát triển, có thể giúp mọi người nhiều
-                hơn nữa. Cảm ơn vì tất cả.
+                hơn nữa. Cảm ơn vì tất cả. ☀️✨ ⭐ ✨
                 <br>
                 <div class="hover">
                     <a href="https://www.facebook.com/DoimauMatma" target="_blank">
@@ -142,7 +144,6 @@ import Header from '../../Header.vue'
         <div class="main1 d-flex flex-column mb-3">
             <h2>Câu lạc bộ võ thuật KMA</h2>
             <div class="p">
-
 
                 <br>
             </div>
@@ -276,7 +277,7 @@ import Header from '../../Header.vue'
                 ta, vừa sáng lạng, vừa hào nhoáng, nhưng trong màn đen đó lại ko thấy điểm cuối cùng.
                 Có rất nhiều nguyện vọng chưa hoàn thành, sau này cũng chưa chắc đã hoàn thành, cũng có thể sẽ hoàn
                 thành nhưng người mà bạn muốn cùng hoàn thành việc đó còn cùng bạn nữa ko.
-                Nếu bạn chưa hạnh phúc thì chưa là kết quả cuối cùng đâu nhé.
+                Nếu bạn chưa hạnh phúc thì chưa là kết quả cuối cùng đâu nhé. ❤️🥰🥰
             </div>
             <div class="img">
                 <div class="img-1">
@@ -391,7 +392,7 @@ import Header from '../../Header.vue'
             </div>
             <div class="img">
                 <div class="img-1">
-                    <div class="tech1 img-"></div>
+                    <div class="tech1 img-bg"></div>
                 </div>
                 <div class="img-1">
                     <div class="tech2 img-bg"></div>
@@ -405,6 +406,7 @@ import Header from '../../Header.vue'
 
     </div>
 
+    <Scroll></Scroll>
 </template>
 <style scoped>
 /* lá */
@@ -740,8 +742,6 @@ import Header from '../../Header.vue'
 .viblo1 {
     background-image: url(../../../public/img/viblo1.PNG);
     background-position: top;
-    /* width: 500px;
-    height: 500px; */
 }
 
 .viblo2 {
@@ -756,19 +756,18 @@ import Header from '../../Header.vue'
 
 .w1 {
     background-image: url(../../../public/img/w1.png);
-    width: 500px;
-    height: 500px;
+
 }
 
 .ww1 {
     background-image: url(../../../public/img/cerUAV.PNG);
-    width: 500px;
-    height: 350px;
+
 }
 
 .tech1 {
     background-image: url(../../../public/img/tech2.PNG);
-
+    background-size: contain;
+    background-position: center;
 
 }
 
@@ -802,8 +801,17 @@ import Header from '../../Header.vue'
     .tech2 {
         width: 500px;
         height: 350px;
-        /* background-size: contain;
-        background-position: center; */
+
+    }
+
+    .ww1 {
+        width: 500px;
+        height: 350px;
+    }
+
+    .w1 {
+        width: 500px;
+        height: 500px;
     }
 
 }
@@ -816,7 +824,6 @@ import Header from '../../Header.vue'
     .img {
         display: grid;
         grid-template-columns: 2fr 2fr;
-        grid-template-rows: 1fr 1fr;
     }
 
     .vo1,
@@ -836,14 +843,11 @@ import Header from '../../Header.vue'
 
     .img-bg2,
     .img-bg3,
-    .mau5 {
+    .mau5,
+    .fly1,
+    .fly5,
+    .viblo2 {
         display: none;
-    }
-
-    .ww1 {
-        width: auto;
-        height: auto;
-
     }
 
     .w1 {

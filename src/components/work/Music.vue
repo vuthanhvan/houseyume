@@ -9,7 +9,6 @@ $(window).on('scroll', function () {
 })
 </script>
 <template>
-
     <div class="body-book">
         <header>
             <div class="main">

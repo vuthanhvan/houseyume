@@ -7,6 +7,7 @@ $(window).on('scroll', function () {
         $('.nav').removeClass('black-p');
     }
 })
+
 </script>
 <template>
 
@@ -75,6 +76,134 @@ $(window).on('scroll', function () {
             </div>
 
         </header>
+
+        <div class="story-1">
+
+            <div class="story-1-img">
+                <h2>Some bullshit</h2>
+            </div>
+            <div class="s1">
+                <div class="s1-txt s1-txt-1">
+                    <h2>Như mây bình thản, như nước thong dong - Sống thuận tự nhiên mới là hạnh phúc!</h2>
+                    <p>Rất nhiều những khoảnh khắc trong đời, chúng ta thất vọng và bất lực trước hiện thực, chỉ ước sao
+                        mình có thể quên đi cuộc sống mưu sinh đang bòn rút hết thời gian riêng tư; ước mình có thể mạnh
+                        mẽ, xinh đẹp, giỏi giang hơn để những thiệt thòi đừng làm tủi hổ.</p>
+                    <div class="sy" style="text-align: center;"><a href="">
+                            read more
+                        </a></div>
+                </div>
+                <div class="s1-txt s1-txt-2">
+                    <h2>NÀY CÔ GÁI, SAO EM KHÔNG YÊU AI?</h2>
+                    <p>“Vì em sợ, sợ mình không xinh, không giỏi, không tự tin, lại còn nói chuyện nhạt... Sợ họ quen
+                        mình một thời gian thì sẽ chán rồi bỏ đi.
+                        <br><br> Em còn lười nữa. Lười bắt chuyện, lười làm quen, lười bắt đầu một mối quan hệ mới... để
+                        rồi sau bao nhiêu thời gian tìm hiểu, hẹn hò lại chẳng đi về đâu.
+                        <br> Em lo, lo rằng sau khi người ta rời đi em chẳng thể quen được với cuộc sống một mình nữa.
+                        Lo mình không quên được họ, rồi những tổn thương họ để lại thời gian cũng chẳng thể làm mờ
+                        đi..."
+                    </p>
+                    <div style="text-align: center;"><a href="">
+                            read more
+                        </a></div>
+                </div>
+            </div>
+            <hr style="margin:40px auto;">
+            <div class="s1">
+                <div class="s1-txt s1-txt-1">
+                    <h2>Chúng ta rồi sẽ phải nói lời tạm biệt với những thứ không ở trong tầm tay</h2>
+                    <p>Trên thế giới này có biết bao loài hoa say đắm lòng người, nhưng tôi chỉ muốn một loài cây có kết
+                        quả. <br>
+                        Đáng tiếc là, anh không phải loài cây mà em có thể dựa vào. <br>
+                        Từ nay về sau, ngăn sông cách núi, chúc anh, chúc hai người những điều tốt lành, nhưng em và
+                        anh, không còn bất kỳ dính dáng gì nữa rồi.</p>
+                    <div class="sy" style="text-align: center;"><a href="">
+                            read more
+                        </a></div>
+                </div>
+                <div class="s1-txt s1-txt-2">
+                    <h2>Sau khi thất tình thì khoảng thời gian nào là khó khăn nhất?</h2>
+                    <p>Thất tình, là vào một buổi chiểu tối của một ngày không đẹp trời lắm, người nói người muốn đi,
+                        còn tôi không đủ sức giữ... <br> <br>
+                        Đối với người thất tình, khó khăn nhất chính là hồi ức, mà quên đi là một chuyện xa xỉ biết bao.
+                        <br>
+                        Trên thế giới này có một số bộ phim không thể xem lại, có một số lời không thể nhắc lại, có một
+                        số mùi hương không thể ngửi lại, có một số bài hát không thể hát lại. <br>
+                        Bạn nói có phải không?
+                    </p>
+                    <div style="text-align: center;"><a href="">
+                            read more
+                        </a></div>
+                </div>
+            </div>
+            <hr style="margin:40px auto;">
+
+            <div id="particle-container1">
+            </div>
+
+            <div class="s1">
+                <div class="s1-txt s1-txt-1">
+                    <h2>Tình yêu năm 17 tuổi và năm 27 tuổi có gì khác biệt?</h2>
+                    <p>Tôi mong các bạn bất kể là 17 tuổi hay 27 tuổi, đều có thể giữ một trái tim chân thành ấm áp,
+                        đừng quên cố gắng lại từ đầu, học cách làm sao để yêu một người. <br>
+                        Hy vọng các bạn nhớ kĩ, khi đối phương đồng ý ở bên cạnh bạn, khi bạn theo đuổi đối phương, đây
+                        không phải kết thúc, đây mới chỉ là bắt đầu một mối quan hệ tình cảm.</p>
+                    <div class="sy" style="text-align: center;"><a href="">
+                            read more
+                        </a></div>
+                </div>
+                <div class="s1-txt s1-txt-2">
+                    <h2>"KHÔNG UNFRIEND, KHÔNG BLOCK, KHÔNG LIÊN LẠC" </h2>
+                    <p>Trương Gia Giai từng nói một câu trong "Ngang qua thế giới của em": "Mở đầu câu chuyện luôn là
+                        thế này, không hẹn mà gặp, quả thực bất ngờ. Kết thúc câu chuyện luôn là thế này, hoa nở hai
+                        đóa, mỗi người một nơi." <br>
+                        Thời gian, là liều thuốc tốt nhất. <br>
+                        Nó sẽ dần dần phai mờ đi những lưu luyến trong lòng bạn, dần dần chữa lành những vết thương sâu
+                        thẳm trong trái tim, để bạn học được cách buông bỏ... <br> <br>
+                        Từ đó về sau, mỗi người một nơi, yên ổn một đời.
+                    </p>
+                    <div style="text-align: center;"><a href="">
+                            read more
+                        </a></div>
+                </div>
+            </div>
+            <hr style="margin:40px auto;">
+            <div class="s1">
+                <div class="s1-txt s1-txt-1">
+                    <h2>Khi yêu đương, cảm thấy lúc nào nên kịp thời chia tay?</h2>
+                    <p></p>
+                    <div class="sy" style="text-align: center;"><a href="">
+                            read more
+                        </a></div>
+                </div>
+                <div class="s1-txt s1-txt-2">
+                    <h2>XIN LỖI, EM HẾT YÊU ANH RỒI</h2>
+                    <p>Suy cho cùng, chúng ta đều là những kẻ ngốc trong tình yêu.
+                        Cho dù vết thương đầy mình, chúng ta vẫn sẽ ra sức để yêu như vậy.
+                        Cho dù cảm thấy bản thân đã không cần tình yêu, vẫn sẽ ôm chấp niệm với một người. <br>
+                        Thích-ca Mâu-ni nói, bất kể bạn gặp ai, họ đều là người nên xuất hiện trong cuộc đời bạn, họ
+                        chắc chắn sẽ dạy bạn điều gì đó. <br>
+                        Có lẽ, một số người bước vào cuộc đời chúng ta, là để dạy cho chúng ta một số thứ, sau đó vội vã
+                        rời đi. </p>
+                    <div style="text-align: center;"><a href="">
+                            read more
+                        </a></div>
+                </div>
+            </div>
+            <hr style="margin:40px auto;">
+        </div>
+        <hr style="background: #CE7C35;">
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         <section class="t-1">
@@ -157,6 +286,182 @@ header {
 
 
 /* the header */
+
+
+
+/* STORY */
+.s-title article {
+    margin: 50px auto;
+    width: 80%;
+    font-size: 2em;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+}
+
+.s-txt {
+    overflow: hidden;
+}
+
+.st {
+    background: linear-gradient(6deg, #dacdff 1%, rgba(218, 205, 255, 0) 47%), #ffeaee;
+    padding: 100px auto;
+}
+
+.st-1 {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px 0px;
+    grid-gap: 20px;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+@media (max-width: 1023px) {
+    .st-1 {
+        display: block;
+    }
+
+    .s1-txt-1 {
+        padding: 0px;
+    }
+
+    .story-1 h2 {
+        margin: 40px auto !important;
+        font-size: 15px !important;
+        padding: 10px !important;
+    }
+
+
+
+
+}
+
+/* Particle container. */
+#particle-container {
+    position: absolute;
+    width: 100%;
+    /* height: 100%; */
+}
+
+#particle-container1 {
+    position: absolute;
+    width: 100%;
+    /* height: 100%; */
+}
+
+
+.story-1 h2 {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+    font-size: 30px;
+    padding: 30px 30px;
+}
+
+.s1 {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    width: 85%;
+    margin: 30px auto;
+    /* padding: 20px 20px; */
+}
+
+.s1-txt-1 {
+    border-right: 1px solid #984a4a;
+    padding: 15px 25px;
+}
+
+.s1-txt-2 {
+    border-left: 1px solid #984a4a;
+    padding: 15px 25px;
+}
+
+.s1-txt h2 {
+    display: flex;
+    text-align: center;
+    font-size: 1.1em;
+    color: #422e1c;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+.s1-txt p {
+    line-height: 1.5;
+}
+
+.s1-txt a {
+    text-decoration: none;
+    padding: 10px;
+    color: #3f4953;
+    margin: 50px 20px;
+    display: inline-block;
+    transition-duration: 0.4s;
+    border: 1px solid #984a4a;
+    padding: 10px;
+    border-radius: 5px;
+    letter-spacing: 3px;
+
+}
+
+.s1-txt .sy a:hover {
+    background: #984a4a;
+    color: #422e1c;
+    transition-duration: 0.4s;
+    background: white;
+    border: 1.5px solid #ebc8aa;
+    text-decoration: none;
+}
+
+.it-title {
+    margin: 20px 20px;
+}
+
+@media (max-width: 1000px) {
+    .s1 {
+        grid-template-columns: 3fr;
+        width: 85%;
+        margin: 30px auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width:700px) {
     .footer-g {

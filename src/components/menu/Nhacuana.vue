@@ -37,7 +37,7 @@ import Header from '../../Header.vue'
                         của bạn là gì!
                     </p>
                     <p>Mong Yume's blog có thể cùng chia sẻ cho bạn với bớt những ưu phiền của cuộc sống.
-                        <img src="/img/storage-icon.PNG" style="height: 40px ; width:40px; margin:0" alt="">
+                        <img src="/img/storage-icon.png" style="height: 40px ; width:40px; margin:0" alt="">
                     </p>
 
                     <img src="https://i.pinimg.com/564x/b5/4e/4e/b54e4e50f6453da03f576997d2818d49.jpg" alt="">
@@ -145,7 +145,7 @@ import Header from '../../Header.vue'
                     <p></p>
                     <p> </p>
                     <video class="s-video" controls autoplay loop>
-                        <source src="/img/Vân Thanh Vũ - Facebook.mp4" type="video/mp4">
+                        <source src="/img/video1.mp4" type="video/mp4">
                     </video>
                     <div class="video-click">
                         <a href="#" target="blank">

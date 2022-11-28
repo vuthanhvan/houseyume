@@ -183,7 +183,7 @@ import Scroll from './Scroll.vue'
                             <span>book<br>
                                 <h2>Review book</h2>
                             </span>
-                            <div class="main-read"><img src="/img/book1.PNG" alt=""></div>
+                            <div class="main-read"><img src="/img/book1.png" alt=""></div>
                         </div>
                     </router-link>
                 </div>
@@ -194,7 +194,7 @@ import Scroll from './Scroll.vue'
                             <span>story <br>
                                 <h2>Fairy tale</h2>
                             </span>
-                            <div class="main-read"><img src="/img/book2.PNG" alt=""></div>
+                            <div class="main-read"><img src="/img/book2.png" alt=""></div>
 
                         </div>
                     </router-link>
@@ -209,7 +209,7 @@ import Scroll from './Scroll.vue'
 
                             <div class="main-music">
                                 <video class="s-video" controls autoplay loop>
-                                    <source src="../img/Hoa Hướng Dương - Facebook.mp4" type="video/mp4">
+                                    <source src="/img/video2.mp4" type="video/mp4">
                                 </video>
                             </div>
 

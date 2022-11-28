@@ -20,7 +20,7 @@ import Header from '../../Header.vue'
             <div class="s-page">
                 <div class="s-page-left">
                     <div class="pl-icon-holder">
-                        <img src="../../../public/img/like.svg" alt="">
+                        <img src="/img/like.svg" alt="">
                     </div>
                 </div>
                 <div class="s-page-right">
@@ -37,8 +37,7 @@ import Header from '../../Header.vue'
                         của bạn là gì!
                     </p>
                     <p>Mong Yume's blog có thể cùng chia sẻ cho bạn với bớt những ưu phiền của cuộc sống.
-                        <img src="../../../public/img/storage-icon.PNG" style="height: 40px ; width:40px; margin:0"
-                            alt="">
+                        <img src="/img/storage-icon.PNG" style="height: 40px ; width:40px; margin:0" alt="">
                     </p>
 
                     <img src="https://i.pinimg.com/564x/b5/4e/4e/b54e4e50f6453da03f576997d2818d49.jpg" alt="">
@@ -51,7 +50,7 @@ import Header from '../../Header.vue'
                     <div class="pl-icon">
                     </div>
                     <div class="pl-icon-holder">
-                        <img src="../../../public/img/thought.svg" alt="">
+                        <img src="/img/thought.svg" alt="">
                     </div>
                 </div>
                 <div class="s-page-right">
@@ -86,7 +85,7 @@ import Header from '../../Header.vue'
                     <div class="pl-icon">
                     </div>
                     <div class="pl-icon-holder">
-                        <img src="../../../public/img/bookmark.svg" alt="">
+                        <img src="/img/bookmark.svg" alt="">
                     </div>
                 </div>
                 <div class="s-page-right">
@@ -115,7 +114,7 @@ import Header from '../../Header.vue'
                     <div class="pl-icon">
                     </div>
                     <div class="pl-icon-holder">
-                        <img src="../../../public/img/code.svg" alt="">
+                        <img src="/img/code.svg" alt="">
                     </div>
                 </div>
                 <div class="s-page-right">
@@ -137,7 +136,7 @@ import Header from '../../Header.vue'
                     <div class="pl-icon">
                     </div>
                     <div class="pl-icon-holder">
-                        <img src="../../../public/img/music.svg" alt="">
+                        <img src="/img/music.svg" alt="">
                     </div>
                 </div>
                 <div class="s-page-right">
@@ -146,7 +145,7 @@ import Header from '../../Header.vue'
                     <p></p>
                     <p> </p>
                     <video class="s-video" controls autoplay loop>
-                        <source src="../../../public/img/Vân Thanh Vũ - Facebook.mp4" type="video/mp4">
+                        <source src="/img/Vân Thanh Vũ - Facebook.mp4" type="video/mp4">
                     </video>
                     <div class="video-click">
                         <a href="#" target="blank">

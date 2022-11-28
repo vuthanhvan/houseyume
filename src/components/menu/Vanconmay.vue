@@ -7,9 +7,9 @@ import Scroll from '../../Scroll.vue'
     <router-view></router-view>
 
     <div class="la">
-        <img class="leaf" src="../../../public/img/leaf-spring-plant-ecology-green-512.webp" />
-        <img class="leaf" src="../../../public/img/leaf-spring-plant-ecology-green-512.webp" />
-        <img class="leaf" src="../../../public/img/leaf-spring-plant-ecology-green-512.webp" />
+        <img class="leaf" src="/img/leaf-spring-plant-ecology-green-512.webp" />
+        <img class="leaf" src="/img/leaf-spring-plant-ecology-green-512.webp" />
+        <img class="leaf" src="/img/leaf-spring-plant-ecology-green-512.webp" />
 
     </div>
 
@@ -657,134 +657,134 @@ import Scroll from '../../Scroll.vue'
 }
 
 .img-bg1 {
-    background-image: url(../../../public/img/school2.jpg);
+    background-image: url(/img/school2.jpg);
 }
 
 .img-bg2 {
-    background-image: url(../../../public/img/school.jpg);
+    background-image: url(/img/school.jpg);
 }
 
 .img-bg3 {
-    background-image: url(../../../public/img/school3.jpg);
+    background-image: url(/img/school3.jpg);
     background-size: contain;
 }
 
 .img-bg4 {
-    background-image: url(../../../public/img/school4.jpg);
+    background-image: url(/img/school4.jpg);
     background-size: contain;
 }
 
 .fly1 {
-    background-image: url(../../../public/img/fly1.jpg);
+    background-image: url(/img/fly1.jpg);
 }
 
 .fly2 {
-    background-image: url(../../../public/img/fly22.jpg);
+    background-image: url(/img/fly22.jpg);
 }
 
 .fly3 {
-    background-image: url(../../../public/img/fly3.jpg);
+    background-image: url(/img/fly3.jpg);
 }
 
 .fly4 {
-    background-image: url(../../../public/img/fly4.jpg);
+    background-image: url(/img/fly4.jpg);
 }
 
 .fly5 {
-    background-image: url(../../../public/img/fly5.jpg);
+    background-image: url(/img/fly5.jpg);
     background-position: top;
 }
 
 .fly6 {
-    background-image: url(../../../public/img/fly6.jpg);
+    background-image: url(/img/fly6.jpg);
 }
 
 .mau1 {
-    background-image: url(../../../public/img/máu.jpg);
+    background-image: url(/img/máu.jpg);
     background-size: contain;
 }
 
 .mau2 {
-    background-image: url(../../../public/img/mau2.jpg);
+    background-image: url(/img/mau2.jpg);
 }
 
 .mau3 {
-    background-image: url(../../../public/img/mau3.jpg);
+    background-image: url(/img/mau3.jpg);
 }
 
 .mau4 {
-    background-image: url(../../../public/img/m33.jpg);
+    background-image: url(/img/m33.jpg);
     background-size: contain;
 }
 
 .mau5 {
-    background-image: url(../../../public/img/m22.jpg);
+    background-image: url(/img/m22.jpg);
     background-size: contain;
 }
 
 .mau6 {
-    background-image: url(../../../public/img/m11.jpg);
+    background-image: url(/img/m11.jpg);
     background-size: contain;
 }
 
 .vo1 {
-    background-image: url(../../../public/img/vo1.jpg);
+    background-image: url(/img/vo1.jpg);
     background-size: contain;
 
 }
 
 .vo2 {
-    background-image: url(../../../public/img/vo2.jpg);
+    background-image: url(/img/vo2.jpg);
     background-size: contain;
 
 }
 
 .viblo1 {
-    background-image: url(../../../public/img/viblo1.PNG);
+    background-image: url(/img/viblo1.PNG);
     background-position: top;
 }
 
 .viblo2 {
-    background-image: url(../../../public/img/viblo2.PNG);
+    background-image: url(/img/viblo2.PNG);
     background-position: top;
 }
 
 .viblo3 {
-    background-image: url(../../../public/img/viblo2.PNG);
+    background-image: url(/img/viblo2.PNG);
     background-position: bottom;
 }
 
 .w1 {
-    background-image: url(../../../public/img/w1.png);
+    background-image: url(/img/w1.png);
 
 }
 
 .ww1 {
-    background-image: url(../../../public/img/cerUAV.PNG);
+    background-image: url(/img/cerUAV.PNG);
 
 }
 
 .tech1 {
-    background-image: url(../../../public/img/tech2.PNG);
+    background-image: url(/img/tech2.PNG);
     background-size: contain;
     background-position: center;
 
 }
 
 .tech2 {
-    background-image: url(../../../public/img/tech1.jpg);
+    background-image: url(/img/tech1.jpg);
 }
 
 .tr1 {
-    background-image: url(../../../public/img/tr1.PNG);
+    background-image: url(/img/tr1.PNG);
 }
 
 .tr2 {
-    background-image: url(../../../public/img/tr2.PNG);
+    background-image: url(/img/tr2.PNG);
 }
 
 .tr3 {
-    background-image: url(../../../public/img/tr3.PNG);
+    background-image: url(/img/tr3.PNG);
 }
 
 

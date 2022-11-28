@@ -1,42 +1,43 @@
 <script setup>
- // kéo xuống khoảng cách 500px thì xuất hiện nút Top-up
- var offset = 500;
-            // thời gian di trượt 0.75s ( 1000 = 1s )
-            var duration = 750;
-            $(function() {
-                $(window).scroll(function() {
-                    if ($(this).scrollTop() > offset)
-                        $('#top-up').fadeIn(duration);
-                    else
-                        $('#top-up').fadeOut(duration);
-                });
-                $('#top-up').click(function() {
-                    $('body,html').animate({
-                        scrollTop: 0
-                    }, duration);
-                });
-            });
+// kéo xuống khoảng cách 500px thì xuất hiện nút Top-up
+var offset = 500;
+// thời gian di trượt 0.75s ( 1000 = 1s )
+var duration = 750;
+$(function () {
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > offset)
+            $('#top-up').fadeIn(duration);
+        else
+            $('#top-up').fadeOut(duration);
+    });
+    $('#top-up').click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, duration);
+    });
+});
 </script>
 <template>
     <div title="Về đầu trang" id="top-up">
-            <div class="btn">
-                <div class="top-up-img"></div>
-                <div class="btn-top-up"></div>
-                <div class="btn-top-up"></div>
-                <div class="btn-top-up"></div>
-            </div>
-
+        <div class="btn">
+            <div class="top-up-img"></div>
+            <div class="btn-top-up"></div>
+            <div class="btn-top-up"></div>
+            <div class="btn-top-up"></div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="filter-svg">
-            <defs>
-                <filter id="goo">
-                    <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
-                    <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
-                    <feBlend in="SourceGraphic" in2="goo" />
-                </filter>
-            </defs>
-        </svg>
-    
+
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="filter-svg">
+        <defs>
+            <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                    result="goo" />
+                <feBlend in="SourceGraphic" in2="goo" />
+            </filter>
+        </defs>
+    </svg>
+
 </template>
 <style scoped>
 /* scroll */
@@ -57,7 +58,7 @@
 }
 
 .top-up-img {
-    background-image: url(../public/img/Yume-removebg-preview.png);
+    background-image: url(/img/Yume-removebg-preview.png);
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -146,5 +147,4 @@
 }
 
 /* the end scroll */
-
 </style>

@@ -304,7 +304,7 @@ ul li.span11>li {
 
   .menu .nav {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row-reverse;
   }
 
   .nav.black {
@@ -319,6 +319,11 @@ ul li.span11>li {
 
   .social {
     display: none;
+  }
+
+  .main11-img img,
+  .main3-img img {
+    width: 20rem !important;
   }
 }
 

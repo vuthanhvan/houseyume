@@ -177,51 +177,103 @@ import Scroll from './Scroll.vue'
 
         <div>
             <div class="main2">
-                <div class="main22 ">
-                    <router-link to="/book">
-                        <div class="main11-img main-img">
-                            <span>book<br>
-                                <h2>Review book</h2>
-                            </span>
-                            <div class="main-read"><img src="/img/book1.png" alt=""></div>
+                <div class="main22 bg-read">
+                    <div class="img-main2">
+                        <div class="img-read"><img
+                                src="https://i.pinimg.com/564x/04/e9/53/04e9538e1ab30dd4996e4ce1792f891b.jpg" alt="">
                         </div>
-                    </router-link>
+                    </div>
+                    <div class="txt-main2">
+                        <h2>Review book</h2>
+                        <div class="p"> Content </div>
+                        <div class="span-year">2022-book</div>
+                        <div class="li-txt">
+                            <ul>
+                                <li>-> đặc điểm</li>
+                                <li>-> đặc điểm</li>
+                                <li>-> đặc điểm</li>
+                            </ul>
+                        </div>
+                        <router-link to="/book"> Xem thêm</router-link>
+                    </div>
                 </div>
 
-                <div class="main22">
-                    <router-link to="/tale">
-                        <div class="main3-img main-img">
-                            <span>story <br>
-                                <h2>Fairy tale</h2>
-                            </span>
-                            <div class="main-read"><img src="/img/book2.png" alt=""></div>
-
+                <div class="main22 bg-story">
+                    <div class="img-main2">
+                        <div class="img-read"><img src="/img/book2.png" alt="">
                         </div>
-                    </router-link>
+                    </div>
+                    <div class="txt-main2">
+                        <h2>Fairy tale</h2>
+                        <div class="p"> Content </div>
+                        <div class="span-year">2022-story</div>
+                        <div class="li-txt">
+                            <ul>
+                                <li>-> đặc điểm</li>
+                                <li>-> đặc điểm</li>
+                                <li>-> đặc điểm</li>
+                            </ul>
+                        </div>
+                        <router-link to="/tale"> Xem thêm</router-link>
+                    </div>
                 </div>
 
-                <div class="main22">
-                    <router-link to="/music">
-                        <div class="main5-img main-img">
-                            <span>music <br>
-                                <h2>Memory Music</h2>
-                            </span>
-
+                <div class="main22 bg-music">
+                    <div class="img-main2">
+                        <div class="img-read">
                             <div class="main-music">
                                 <video class="s-video" controls autoplay loop>
                                     <source src="/img/video2.mp4" type="video/mp4">
                                 </video>
                             </div>
-
                         </div>
-                    </router-link>
+                    </div>
+                    <div class="txt-main2">
+                        <h2>Memory Music</h2>
+                        <div class="p"> Content </div>
+                        <div class="span-year">2022-music</div>
+                        <div class="li-txt">
+                            <ul>
+                                <li>-> đặc điểm</li>
+                                <li>-> đặc điểm</li>
+                                <li>-> đặc điểm</li>
+                            </ul>
+                        </div>
+                        <router-link to="/music"> Xem thêm</router-link>
+                    </div>
                 </div>
 
-                <div class="main22">
+                <div class="main22 bg-photo">
+                    <div class="img-main2">
+                        <div class="img-read">
+                            <img src="https://vanpicachu.files.wordpress.com/2022/02/img_20220218_133634313.jpg?w=2000&h=1200&crop=1"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="txt-main2">
+                        <h2>Photography</h2>
+                        <div class="p"> Content </div>
+                        <div class="span-year">2022-img</div>
+                        <div class="li-txt">
+                            <ul>
+                                <li>-> đặc điểm</li>
+                                <li>-> đặc điểm</li>
+                                <li>-> đặc điểm</li>
+                            </ul>
+                        </div>
+                        <router-link to="/photography"> Xem thêm</router-link>
+                    </div>
+                </div>
+
+
+
+
+
+                <!-- <div class="main22">
                     <a href="https://www.pinterest.com/giahana2610/" target="_blank">
                         <div class="main2-img main-img">
                             <span style="color:#ffeec4  ;"> img <br>
-                                <h2>Photography</h2>
+                                <h2></h2>
                             </span>
                             <div class="main-spotify">
                                 <img src="https://i.pinimg.com/564x/1a/22/f0/1a22f0ffc897a6d63e307b5fac54673c.jpg"
@@ -229,7 +281,7 @@ import Scroll from './Scroll.vue'
                             </div>
                         </div>
                     </a>
-                </div>
+                </div> -->
 
             </div>
         </div>
@@ -318,7 +370,6 @@ import Scroll from './Scroll.vue'
     width: 100%;
     max-width: 1200px;
     margin: 20px auto;
-    display: grid;
     margin-bottom: 30px;
     display: flex;
     margin-top: 10rem;
@@ -331,6 +382,11 @@ import Scroll from './Scroll.vue'
     width: 100%;
     max-width: 1200px;
     margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    border-radius: 15px;
+    padding: 30px;
 }
 
 .main22:hover {
@@ -339,14 +395,81 @@ import Scroll from './Scroll.vue'
     border-radius: 20px;
 }
 
-.main-read,
+.bg-read {
+    background: linear-gradient(338.83deg, #f8c6ff -3.41%, rgba(255, 196, 255, 0) 52.31%), #ffeec4;
+}
+
+.bg-story {
+    background: linear-gradient(6.03deg, #dacdff .5%, rgba(218, 205, 255, 0) 46.89%), #ffeaee;
+}
+
+.bg-music {
+    background: linear-gradient(39.4deg, #b6a0ea -2.55%, rgba(182, 160, 234, 0) 45.21%), #f1ebff;
+}
+
+.bg-photo {
+    background-image: linear-gradient(120deg, rgb(255, 238, 222), rgb(255, 249, 234));
+}
+
+.img-read {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 22rem; */
+}
+
+.img-read img {
+    height: 22rem;
+    width: 25rem;
+    border-radius: 9px;
+}
+
+.txt-main2 {
+    padding: 20px;
+}
+
+.main22 h2 {
+    font-weight: bold;
+}
+
+.main22 .span-year {
+    color: gray;
+    padding-top: 20px;
+}
+
+.main22 .li-txt {
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .main-read,
 .main-music,
 .main-spotify {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 30rem;
-}
+} */
 
 .main11-img img,
 .main3-img img {
@@ -388,7 +511,7 @@ import Scroll from './Scroll.vue'
 .main4-img,
 .main5-img,
 .main6-img {
-    height: 30rem;
+    height: 22rem;
     border-radius: 20px;
     position: relative;
     /*  */
@@ -849,12 +972,16 @@ import Scroll from './Scroll.vue'
 }
 
 @media (max-width: 1023px) {
-    .index-khung {
+    .box-khung {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .box7,
+    .box8 {
         display: none;
     }
-}
 
-@media (max-width: 1023px) {
     .footer-i div {
         margin: 10px;
     }
@@ -889,7 +1016,15 @@ import Scroll from './Scroll.vue'
         background-size: cover;
     }
 
+    .box-khung {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
+    .box5,
+    .box6 {
+        display: none;
+    }
 
 
     footer {
@@ -908,6 +1043,23 @@ import Scroll from './Scroll.vue'
         margin: 10px auto 30px;
         padding-left: 30px;
 
+    }
+
+    .main22 {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1200px;
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        border-radius: 15px;
+        padding: 30px;
+    }
+
+    .txt-main2[data-v-2b542792] {
+        padding: 20px;
+        margin-left: 50px;
     }
 }
 
@@ -953,6 +1105,10 @@ import Scroll from './Scroll.vue'
 }
 
 @media (max-width:500px) {
+
+    .index-khung {
+        display: none;
+    }
 
     .main1-img {
         margin-top: 50px;
